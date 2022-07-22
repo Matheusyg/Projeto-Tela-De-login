@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criar Conta</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif
+        }
+        
+        fieldset{
+            width: 500px;
+            margin: 250px auto;
+            box-shadow: 2px 2px 2px 1px rgb(121, 121, 121);
+        }
+
+        #email, #usuario, #senha, #nascimento{
+            display: block;
+
+        }
+
+        fieldset h1{
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            padding: 0px;
+        }
+
+        fieldset label{
+            display: block;
+            width: 80%;
+            margin: auto; 
+        }
+
+        #usuario, #password, #email, #btn-criarconta, #nascimento{
+            display: block;
+        }
+
+        #usuario, #password, #email, #nascimento{
+            width: 80%;
+            margin: auto;
+            font-size: 15px;
+            padding: 10px;
+            border: 1px solid rgb(199, 198, 198);
+        }
+
+        .label-email, .label-user, .label-senha, .label-nasci {
+            margin-bottom: 10px;
+        }
+
+        #email, #user, #password{
+            margin-bottom: 10px;
+        }
+
+        #btn-criarconta{
+            margin-left: 178px;
+            margin-top: 30px;
+            margin-bottom: 28px;
+            padding: 14px 38px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #ddd;
+            border: none;
+            color: rgb(53, 50, 50);
+            border-radius: 5px;
+            border: 1px solid rgb(80, 80, 80);
+            transition: all;
+            transition-duration: 0.3s;
+        }
+
+        #btn-criarconta:hover{
+            background-color: rgb(190, 190, 190);
+            color: black;
+            border: 1px solid black;
+        }
+
+        .extras{
+            text-align: center;
+            
+        }
+
+        .extras a{
+            text-decoration: none;
+        }
+
+        .extras a:hover{
+            text-decoration: underline;
+        }
+
+        .termos{
+            color: rgb(97, 96, 96);
+            font-size: 12px;
+
+        }
+
+        .login{
+            font-size: 14px;
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <h1>Criar Conta</h1>
+
+            <label for="" class="label-email">E-mail</label>
+            <input type="email" name="email" id="email" required>
+
+            <label for="" class="label-user">Usuário</label>
+            <input type="text" name="user" id="usuario" required>
+
+            <label for="" class="label-senha">Senha</label>
+            <input type="password" name="pass" id="password" required>
+
+            <label for="" class="label-nasci">Data de Nascimento</label>
+            <input type="date" name="nasci" id="nascimento" required>
+            
+
+            <input type="submit" value="Criar Conta" id="btn-criarconta">
+
+            <div class="extras">
+                <p class="termos">Após Clicar em Criar Conta, Você concorda com os <a href="#">termos</a> e <a href="">Politica de Privacidade</a></p>
+
+                <p class="login">Já tem uma conta ?? <a href="index.html">Login</a></p>
+            </div>
+            
+
+        </fieldset>
+    </form>
+    
+</body>
+</html>

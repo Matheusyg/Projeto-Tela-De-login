@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Simples</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form{
+            width: 500px;
+            margin: 250px auto 0;
+        }
+
+        fieldset{
+            box-shadow: 1px 1px 5px rgb(121, 121, 121);
+        }
+
+        fieldset label{
+            display: block;
+            width: 80%;
+            margin: auto; 
+        }
+
+        .titulo{
+            text-align: center;
+            font-weight: bold;
+            font-size: 30px;
+            padding: 0px;
+        }
+
+        #usuario, #password, #btn-logar{
+            display: block;
+        }
+
+        #usuario, #password{
+            width: 80%;
+            margin: auto;
+            font-size: 15px;
+            padding: 10px;
+            border: 1px solid rgb(199, 198, 198);
+        }
+
+        .label-user{
+            margin-bottom: 10px;
+        }
+
+        #usuario{
+            margin-bottom: 10px;
+        }
+
+        .label-pass{
+            margin-bottom: 10px;
+        }
+
+        #btn-logar{
+            margin-left: 178px;
+            margin-top: 30px;
+            margin-bottom: 28px;
+            padding: 14px 38px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #ddd;
+            border: none;
+            color: rgb(53, 50, 50);
+            border-radius: 5px;
+            border: 1px solid rgb(80, 80, 80);
+            transition: all;
+            transition-duration: 0.3s;
+        }
+
+        #btn-logar:hover{
+            background-color: rgb(190, 190, 190);
+            color: black;
+            border: 1px solid black;
+
+        }
+
+        .extra{
+            text-align: center;
+        }
+
+        .extra a{
+            text-decoration: none;
+        }
+
+        .extra a:hover{
+            text-decoration: underline;
+        }
+
+        .extra span{
+            font-weight: bold;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <form action="">
+        <fieldset>
+            <p class="titulo">Login</p>
+            <label for="usuario" class="label-user">Usuário</label>
+            <input type="text" name="user" id="usuario" required>
+            <label for="password" class="label-pass">Senha</label>
+            <input type="password" name="pass" id="password" required>
+
+            <input type="submit" name="enviar" value="Logar" id="btn-logar">
+
+            <p class="extra"><a href="#">Esqueceu a Senha?</a> <span>|</span> Ainda não tem uma conta? <a href="CriarConta.html">Criar Conta</a></p>
+
+
+        
+        </fieldset>
+    </form>
+    
+</body>
+</html>
