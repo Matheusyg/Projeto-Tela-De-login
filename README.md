@@ -5,7 +5,7 @@
 # Funcionalidades
 
 - Tela de login(não funcional)
-- Tela de cadastro(não funciona)
+- Tela de cadastro(não funcional)
 
 # Tecnologias Usadas
 
